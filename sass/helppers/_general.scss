@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'Digital-7';
+    src: url(../Digital-7.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Digital-7';
+    text-align: center;  
+    background-color: gray;
+}
+
+#timer{
+    display: flex;
+    justify-content: space-around;
+    span{
+        width: 25%;
+    }
+}
+
+.cont-stop-watch {
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 50%;
+    background-color: black;
+    border: 5px solid white;
+    position: relative;
+}
+
+.cont-timer{
+    width: 50%;
+    height: 12%;
+    font-size: 2.5em;
+    margin: 30%  auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 35px 30px 25px;
+    p{
+        font-size: 3.5rem;
+    }
+}
+
+.btn {
+    margin: 40px 20px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    img{
+        width: 50px;
+        text-align: center;
+        cursor:pointer;
+    }
+}
